@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(41, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    
+  }
+
+.login{
+
+    background-color: rgb(29, 29, 29);
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 400px;
+}
+
+.logo{
+
+    width: 120px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dados{
+    margin-top: 12px;
+    background-color: rgb(36, 36, 36);
+    padding-left: 15px;
+    color: aliceblue;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    min-width: 180px;
+    font-size: 16px;
+    
+  }
+
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: rgb(12, 12, 12);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    color: aliceblue;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+  }
+  
+.icon{
+    position: absolute;
+    bottom: 224px;
+    right: 520px;
+    cursor: pointer;
+    color: aliceblue;
+    width: 25px;
+  }
+  
+.esconder{
+    color:rgb(41, 41, 41) ;
+}
